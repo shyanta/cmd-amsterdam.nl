@@ -6,9 +6,17 @@
 
 ## HTTP optimisation
 
+### HTTP/1
+
+*   Concatenate
+*   Icon fonts
+*   Domain Sharding
+
 ### HTTP/2
 
-### HTTP/1
+*   Don’t concatenate
+*   No icon fonts
+*   No Domain Sharding
 
 ## Audits
 
