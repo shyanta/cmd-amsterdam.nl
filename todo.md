@@ -64,6 +64,7 @@
 *   [clean-css](https://github.com/jakubpawlowicz/clean-css)
     — Fast and efficient CSS optimizer for node.js and the Web
 *   Critical CSS
+*   Combine External CSS files in to as few files as possible
 
 ### HTML
 
@@ -83,7 +84,6 @@
 ### Images
 
 *   Downsize images with Adobe PhotoShop, by saving for web
-*   Loading the logo's inline
 
 ### Perceived Performance
 
