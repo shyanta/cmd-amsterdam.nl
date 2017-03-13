@@ -45,7 +45,6 @@
 ## JavaScript performance
 
 *   Prevent multiple versions and requests for jQuery. The page itself requests jQuery, but the plugins also include different versions.
-*  Get rid of js files that aren't used. JS takes up ~50% of the requests and bytes
 
 ## Caching
 
@@ -62,7 +61,7 @@
 
 *   [clean-css](https://github.com/jakubpawlowicz/clean-css)
     — Fast and efficient CSS optimizer for node.js and the Web
-*   Critical CSS
+*  Remove unused CSS rules. A lot of rules aren't used is the CSS files.
 
 ### HTML
 
@@ -76,8 +75,6 @@
 
 ### Fonts
 *   Subset fonts using fontsquirrel
-*   load fallback font before custom font show content faster
-https://github.com/bramstein/fontfaceobserver
 
 ### Images
 
@@ -95,4 +92,3 @@ https://github.com/bramstein/fontfaceobserver
 ### Void Space
 
 *   Set min-height for <div class="container-wrap"/> in order to stop the footer from beingat the top of the page onload.
-*  Reserve space for the full size image on the home page. When the page is loaded, the content won't jump around
