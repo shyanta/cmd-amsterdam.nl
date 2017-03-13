@@ -38,6 +38,7 @@
 *   [`<picture>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture)
 *   Compress images with [TinyPNG](https://tinypng.com/) or [TinyJPG](https://tinyjpg.com/) to reduce filesizes before upload
 *   [Lazyload images](http://verlok.github.io/lazyload/)
+*   Use sprites (Les requests) for small images
 
 ## JavaScript performance
 
