@@ -45,6 +45,7 @@
 ## JavaScript performance
 
 *   Prevent multiple versions and requests for jQuery. The page itself requests jQuery, but the plugins also include different versions.
+*  Get rid of js files that aren't used. JS takes up ~50% of the requests and bytes
 
 ## Caching
 
