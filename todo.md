@@ -7,6 +7,7 @@
 *   [Use gzip compression on assets](http://softstribe.com/wordpress/enable-gzip-compression-in-wordpress/)
 *   Use HTTPS to serve images (console gives 'insecure content' warning)
 *   Store PDF files on https://aws.amazon.com/s3/
+*   [Reduce the number of plugins you use on your site] (https://hostingfacts.com/how-to-speed-up-your-website/#1) 
 
 ## HTTP optimisation
 
