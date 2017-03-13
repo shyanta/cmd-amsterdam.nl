@@ -57,6 +57,7 @@
     — JavaScript parser / mangler / compressor / beautifier toolkit
 
 ### Fonts
+*   Subset fonts using fontsquirrel
 
 ### Images
 
