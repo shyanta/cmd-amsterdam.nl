@@ -71,3 +71,4 @@
 ### Void Space
 
 *   Set min-height for <div class="container-wrap"/> in order to stop the footer from beingat the top of the page onload.
+*   Reserve space for the full size image on the home page. When the page is loaded, the content won't jump around
