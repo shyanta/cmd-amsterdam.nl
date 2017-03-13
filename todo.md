@@ -83,6 +83,7 @@
 ### Images
 
 *   Downsize images with Adobe PhotoShop, by saving for web
+*   Loading the logo's inline
 
 ### Perceived Performance
 
