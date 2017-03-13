@@ -9,6 +9,7 @@
 *   Store PDF files on https://aws.amazon.com/s3/
 *   [Reduce the number of plugins you use on your site] (https://hostingfacts.com/how-to-speed-up-your-website/#1) 
 *   Fallbacks for HTML, CSS and JavaScript
+*   Reduce inline javascript
 
 ## HTTP optimisation
 
@@ -45,6 +46,7 @@
 ## JavaScript performance
 
 *   Prevent multiple versions and requests for jQuery. The page itself requests jQuery, but the plugins also include different versions.
+*   Get rid of js files that aren't used. JS takes up ~50% of the requests and bytes
 
 ## Caching
 
@@ -75,10 +77,13 @@
 
 ### Fonts
 *   Subset fonts using fontsquirrel
+*   load fallback font before custom font show content faster
+    https://github.com/bramstein/fontfaceobserver
 
 ### Images
 
 *   Downsize images with Adobe PhotoShop, by saving for web
+*   Loading the logo's inline
 
 ### Perceived Performance
 
@@ -92,3 +97,4 @@
 ### Void Space
 
 *   Set min-height for <div class="container-wrap"/> in order to stop the footer from beingat the top of the page onload.
+*   Reserve space for the full size image on the home page. When the page is loaded, the content won't jump around
