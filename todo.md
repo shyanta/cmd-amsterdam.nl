@@ -31,6 +31,11 @@
 *   [`srcset`](https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/) and [`sizes`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#Example_4_Using_the_srcset_and_sizes_attributes)
 *   [`<picture>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture)
 
+## Caching
+
+*   [gulp-rev](https://github.com/sindresorhus/gulp-rev)
+    — Static asset revisioning by appending content hash to filenames
+
 ## Minify
 
 ### CSS
