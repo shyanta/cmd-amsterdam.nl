@@ -16,6 +16,7 @@
 *   Concatenate
 *   Icon fonts
 *   Domain Sharding
+*   Reduce external HTTP requests
 
 ### HTTP/2
 
@@ -37,6 +38,10 @@
 *   [`<picture>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture)
 *   Compress images with [TinyPNG](https://tinypng.com/) or [TinyJPG](https://tinyjpg.com/) to reduce filesizes before upload
 *   [Lazyload images](http://verlok.github.io/lazyload/)
+
+## JavaScript performance
+
+*   Prevent multiple versions and requests for jQuery. The page itself requests jQuery, but the plugins also include different versions.
 
 ## Caching
 
@@ -62,7 +67,6 @@
 
 *   [Uglify](https://github.com/mishoo/UglifyJS2)
     — JavaScript parser / mangler / compressor / beautifier toolkit
-*   Prevent multiple versions and requests for jQuery. The page itself requests jQuery, but the plugins also include different versions.
 
 ### Fonts
 *   Subset fonts using fontsquirrel
