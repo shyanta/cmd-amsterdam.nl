@@ -48,6 +48,7 @@
 
 *   [html-minifier](https://github.com/kangax/html-minifier)
     — Javascript-based HTML compressor/minifier
+*   Get rid of js files that aren't used. JS takes up ~50% of the requests and bytes
 
 ### JavaScript
 
